@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Products Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.gstatic.com" crossorigin>
+    
+
+    <!-- Link to JS -->
+    <script src="script.js"></script>
+    <!-- Fontawesome script-->
+    <script src="https://kit.fontawesome.com/265ce86998.js" crossorigin="anonymous"></script>
+    <!-- Fontawesome CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- WEBSITE HEADER-->
+ 
+    <div class="container">
+
+        <div class="navbar">
+            <div class="logo">
+                <img href="index.html" src="images1/islandhacklogo.png" width="200px"  height=300px  alt="IslandHack Logo">
+    
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+           
+            <a href="cart.html"> <i class="fas fa-shopping-cart"></i></a>
+            <img class ="menu-icon" onclick="menuToggle()"  src="images/menu.png" width="30px" height="30px">
+        </div>
+    </div>
+
+<!-- PRODUCT DETAILS FOR SINGLE PRODUCT-->
+<div class="small-container single-product">
+    <div class="row">
+
+        <div class="col-2">
+            <img src="images1/Cases/Raindow Tie Dye.png" width="100%" id="ProductImg">
+
+            <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src="images1/Cases/Rainbow Trip.png" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="images1/Cases/RIRI.png" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="images1/Cases/Zodiac.png" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="images1/Cases/Orange Collage.png" width="100%" class="small-img">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-2">
+            <h1>Cases</h1>
+            <h4>$50.00</h4>
+            <select>
+                <option>Select Phone Model</option>
+                <option>iPhone 12</option>
+                <option>iPhone 12 Pro Max</option>
+                <option>iPhone 11 Pro Max</option>
+                <option>Samsung Galaxy S20</option>
+                <option>Samsung Galaxy S20 Ultra</option>
+            </select>
+            <input type="number" value="1">
+            <a href="" class="btn">Add To Cart</a>
+
+            <h3>Product Details:</h3>
+            <br>
+            <p> Made with TPU for maximum durability.</p>
+        
+        </div>
+    </div>
+</div>
+
+<!--TITLE-->
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Related Products</h2>
+        <small>View More</small>
+       
+    </div>
+</div>
+
+
+<!-- Related Products-->
+<div class="small-container">
+
+    <div class="row">
+        <div class="col-4">
+            <img src="images1/Cases/Pearlz.png">
+            <h4>Cases</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images1/Cases/Queen.png">
+            <h4>Shoes</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images1/Cases/Space Man.png">
+            <h4>Sweatpants</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images1/Cases/Tigress.png">
+            <h4>Blue Printed Tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+    </div>
+    
+
+</div> 
+
+<!--Footer Content-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="footer-col-1">
+
+                <h3>Download Our App</h3>
+                <p>Download App for Android and iOS</p>
+                <div class="app-logo">
+                    <i class="fab fa-google-play fa-5x"></i>
+                    <i class="fab fa-app-store-ios fa-5x"></i>
+                </div>
+            </div>
+
+
+            <div class="footer-col-2">
+                <img src="images1/islandhacklogo.png">
+        
+            </div>
+            <div class="footer-col-3">
+                <h3> Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Return Policy</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        
+        <p class="copyright"> Copyright &copy 2021 IslandHack</p>
+    </div>
+</div>
+ 
+</body>
+</html>
